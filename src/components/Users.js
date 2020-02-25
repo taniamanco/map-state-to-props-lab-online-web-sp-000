@@ -17,7 +17,7 @@ class Users extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
+let mapStateToProps = (state) => {
   return {
     users: state.users,
     numberOfUsers: state.users.length
